@@ -1,15 +1,15 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:
-url: https://mazhuang.org
+baseurl: ""
+url: https://fengji2021.github.io
 date_format: "ordinal"
 title: "Interestracer"
 subtitle: "Feng Ji"
 description: "Feng Ji's Blog"
 keywords: Blog
 timezone: Europe/Berlin
-encoding: "utf-8"
+encoding: "UTF-8"
 # 页面左下角显示的年份
 since: 2023
 # 源码仓库，请替换成自己的
@@ -142,26 +142,26 @@ disqus:
     username: 
 # gitment 配置参考：https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
-    repo: blog-comments
+    owner: FengJi2021
+    repo: fengji_blog
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 05daf20f152cc12d2794
+        client_secret: be2a47b8605150c37ac7a77ca3700604fb92bbe6
 # gitalk 配置参考：https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    owner: fengji2021
+    repo: fengji_blog
+    clientID: 05daf20f152cc12d2794
+    clientSecret: be2a47b8605150c37ac7a77ca3700604fb92bbe6
 # utterances 配置参考：https://utteranc.es/
 utterances:
-    repo: mzlogin/blog-comments
+    repo: fengji2021/fengji_blog
 # beaudar 配置参考：https://beaudar.lipk.org/
 beaudar:
-    repo: mzlogin/blog-comments
+    repo: fengji2021/fengji_blog
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: mzlogin/blog-comments
+    repo: fengji2021/fengji_blog
     repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
     category: Announcements
     category-id: DIC_kwDOBY0E7c4CRtg9
