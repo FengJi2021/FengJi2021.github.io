@@ -70,11 +70,11 @@ email: tonystarkfcb@gmail.com
 navs:
   -
     href: /
-    label: 首页
+    label: Main Page
 
   -
     href: /categories/
-    label: 分类
+    label: Categories
 
 #   -
 #     href: /archives/
@@ -86,15 +86,15 @@ navs:
 
   -
     href: /wiki/
-    label: 维基
+    label: Wiki
 
   -
     href: /links/
-    label: 链接
+    label: Links
 
   -
     href: /about/
-    label: 关于
+    label: About
 
 # ---------------- #
 #       RSS        #

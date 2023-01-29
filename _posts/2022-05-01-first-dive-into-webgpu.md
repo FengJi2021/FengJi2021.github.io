@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a little dive into webgpu
+title: A Little Dive Into Webgpu
 categories: [webgpu, webgaming]
 description: to get a better rendering performance for webgaming
 keywords: webgpu, webgaming, rendering
