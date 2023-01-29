@@ -48,12 +48,12 @@ layout: default
     {% include content-header-ad.html %}
     <article class="article-content markdown-body">
     {{ content }}
-    <!-- plug in page -->
-    {% if page.plug_in %}
-    <iframe class="column three-fourths" src="_plug_ins/{{page.plug_in}}"></iframe>
-    {% endif %}
     {% include copyright.html %}
     </article>
+    <!-- plug in page -->
+    {% if page.plug_in %}
+    <iframe class="column" src="/_plug_ins/{{page.plug_in}}"></iframe>
+    {% endif %}
     <div class="share">
       {% include sns-share.html %}
     </div>
