@@ -50,7 +50,7 @@ layout: default
     {{ content }}
     <!-- plug in page -->
     {% if page.plug_in %}
-    <div class="column three-fourths" src="_plug_ins/{{page.plug_in}}"></div>
+    <iframe class="column three-fourths" src="_plug_ins/{{page.plug_in}}"></iframe>
     {% endif %}
     {% include copyright.html %}
     </article>
