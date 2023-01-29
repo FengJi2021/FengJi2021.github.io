@@ -52,7 +52,8 @@ layout: default
     </article>
     <!-- plug in page -->
     {% if page.plug_in %}
-    <iframe class="column" src="/_plug_ins/{{page.plug_in}}"></iframe>
+    <div>{{page.plug_in}}</div>
+    <iframe class="column" src="/_plug_ins/cubes.html"></iframe>
     {% endif %}
     <div class="share">
       {% include sns-share.html %}
