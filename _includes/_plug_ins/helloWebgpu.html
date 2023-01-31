@@ -1,18 +1,22 @@
-<div>
+<div id="live_demo">
     <h1>Webgpu Init</h1>
     <script type="text/javascript">
         async function initWebGPU() {
         try {
-          if (!navigator.gpu) throw new Error("Not support WebGPU");
-          const adapter = await navigator.gpu.requestAdapter();
-          if (!adapter) throw new Error("No adapter found");
-          console.log(adapter);
-          adapter.features.forEach((value) => {
-            console.log(value);
-          });
-          document.body.innerHTML = "<h1>Hello WebGPU</h1>";
-        } catch (error) {
-          document.body.innerHTML = `<h1>${error.message}</h1>`;
+            if (!navigator.gpu) throw new Error("Not support WebGPU");
+            const adapter = await navigator.gpu.requestAdapter();
+            if (!adapter) throw new Error("No adapter found");
+            console.log(adapter);
+            adapter.features.forEach((value) => {
+              console.log(value);
+            });
+            console.log("WebGPU is ready");
+            //document.body.innerHTML = "<h1>Hello WebGPU</h1>";
+            document.getElementById("live_demo").innerHTML = "<h1>Hello WebGPU</h1>";
+        }   catch (error) {
+            //document.body.innerHTML = `<h1>${error.message}</h1>`;
+            console.log(error.message);
+            document.getElementById("live_demo").innerHTML = `<h1>Webgpu not support</h1>`;
         }
         }
         initWebGPU();
