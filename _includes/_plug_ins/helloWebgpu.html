@@ -11,10 +11,8 @@
               console.log(value);
             });
             console.log("WebGPU is ready");
-            //document.body.innerHTML = "<h1>Hello WebGPU</h1>";
             document.getElementById("live_demo").getElementsByTagName("h1")[0].innerHTML = "Hello WebGPU";
         }   catch (error) {
-            //document.body.innerHTML = `<h1>${error.message}</h1>`;
             console.log(error.message);
             document.getElementById("live_demo").getElementsByTagName("h1")[0].innerHTML = "Webgpu not support";
         }
