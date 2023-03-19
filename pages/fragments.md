@@ -8,7 +8,7 @@ menu: 片段
 permalink: /fragments/
 ---
 
-> 零散的知识，简短的观点，作为片段汇集于此。
+> Collect fragments of knowledge, and then put them together to form a whole.
 
 <a href="{{ site.url }}/fragments/">全部 <span class="octicon octicon-chevron-right"></span></a>
 
